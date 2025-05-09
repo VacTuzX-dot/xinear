@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error 404 Page Not Found</title>
+    <link rel="icon" href="./lilith.jpg" />
+  </head>
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: #0d0d0d;
+      font-family: "Sarabun", sans-serif;
+      color: white;
+      transition: transform 0.4s ease;
+    }
+
+    #bokehCanvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #ffffffcc;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+    img {
+      width: 15vw;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  </style>
+  <body>
+    <canvas id="bokehCanvas"></canvas>
+    <div class="content">
+      <h1>
+        <img
+          src="https://media.discordapp.net/attachments/972107905086160906/1370272011149901956/Ga9xr63bEAArCGT.jpg?ex=681ee4c1&is=681d9341&hm=447284536221ac2ed0887dcb03a99c903c3f91b72f3c8ebe82916eb9b8eb0d2c&=&width=720&height=900"
+          alt=""
+        />
+        <br />
+        Error 404 <br />
+        Page Not Found
+      </h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
